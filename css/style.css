@@ -185,7 +185,7 @@ body {
   mask-image: linear-gradient(rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0));
 }
 
-/* .hero .mask-container {
+.hero .mask-container {
   position: absolute;
 
   inset: 0;
@@ -193,7 +193,7 @@ body {
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: cover;
-} */
+}
 
 /* .hero::after {
   content: "";
