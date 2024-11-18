@@ -732,7 +732,7 @@ footer .credit a {
     margin-top: 1.5rem;
   }
   .form-konsumen .checkout-button {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .about .row {
@@ -779,23 +779,20 @@ footer .credit a {
 
   .shopping-cart h3,
   .shopping-cart h5 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   .shopping-cart .cart-item {
-    font-size: 1.3rem;
-  }
-  .shopping-cart h4 {
     font-size: 1.4rem;
   }
+  .shopping-cart h4 {
+    font-size: 1.5rem;
+  }
   .form-konsumen form label span {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
     font-size: 1.7rem;
   }
   .form-konsumen form label input {
-    width: 100%;
+    width: 80%;
     margin: 0.3rem 0;
     font-size: 1.7rem;
   }
