@@ -164,22 +164,22 @@ body {
 }
 
 .shopping-cart img {
-  height: 2.5rem;
+  height: 3.5rem;
   border-radius: 50%;
 }
 
 .shopping-cart h3,
 .shopping-cart h5 {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 .shopping-cart h4 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   text-align: center;
 }
 
-.shopping-cart .cart-item-price {
-  font-size: 0.8rem;
+.shopping-cart .cart-item {
+  font-size: 1.1rem;
 }
 
 .shopping-cart .cart-item #add,
@@ -206,7 +206,7 @@ body {
 
 .form-konsumen h5 {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .form-konsumen form {
@@ -679,24 +679,33 @@ footer .credit a {
     right: 2rem;
   }
   .navbar .shopping-cart {
-    width: 35rem;
+    width: 50rem;
   }
+
   #shopping-cart .cart-notif {
     font-size: 1rem;
   }
 
   .shopping-cart img {
-    height: 5rem;
+    height: 7rem;
     border-radius: 50%;
   }
 
   .shopping-cart h3,
   .shopping-cart h5 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+  }
+  .shopping-cart .cart-item .cart-item-detail #add,
+  .shopping-cart .cart-item .cart-item-detail #remove {
+    padding: 1px 8px;
+    cursor: pointer;
+    margin: 0 4px;
+
+    font-size: 2rem;
   }
 
   .shopping-cart .cart-item {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .shopping-cart h4 {
     font-size: 2rem;
@@ -718,10 +727,10 @@ footer .credit a {
   }
   .form-konsumen label,
   .form-konsumen input {
-    font-size: 1.5rem;
+    font-size: 2.1rem;
   }
   .form-konsumen .checkout-button {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .about .row {
@@ -761,5 +770,8 @@ footer .credit a {
   }
   .hero .content {
     top: 190px;
+  }
+  .navbar .shopping-cart {
+    width: 35rem;
   }
 }
