@@ -27,7 +27,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.4rem 7%;
+  padding: 1rem 7%;
   background-color: rgba(1, 1, 1, 0.8);
   border-bottom: 1px solid #512929;
   position: fixed;
@@ -144,7 +144,8 @@ body {
   right: -100%;
   background-color: #fff;
   width: 30rem;
-  height: 100vh;
+  height: 150vh;
+  overflow: visible;
   transition: 0.3s;
   padding: 0 1.5rem;
   color: var(--bg);
@@ -163,7 +164,7 @@ body {
 }
 
 .shopping-cart img {
-  height: 3.5rem;
+  height: 2.5rem;
   border-radius: 50%;
 }
 
@@ -192,39 +193,53 @@ body {
 .form-konsumen {
   width: 100%;
   border-top: 1px dashed black;
-  padding: 1rem 0;
+  padding: 0.7rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .form-konsumen h5 {
   text-align: center;
   font-size: 1rem;
 }
-#checkoutForm {
-  display: flex;
-  flex-direction: column;
+
+.form-konsumen form {
+  width: 100%;
+  text-align: center;
 }
 .form-konsumen label {
-  margin: 0.7rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
 }
 .form-konsumen input {
   background-color: #ddd;
   padding: 5px;
   font-size: 1rem;
-  width: 100%;
+  width: 80%;
   border-radius: 16px;
-  padding: 10px;
+  padding: 5px 15px;
 }
 
 .form-konsumen .checkout-button {
-  padding: 6px 14px;
   background-color: var(--primary);
-  color: white;
-  font-weight: bold;
+  border-radius: 16px;
   font-size: 1rem;
-  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
   margin: 1rem auto;
   cursor: pointer;
+  transition: background-color 0.2s ease-in, transform 0.2s ease-in;
 }
+
+.form-konsumen .checkout-button:hover {
+  background-color: #7e5b38;
+  transform: scaleX(0.9);
+}
+
 /* Hero Section */
 .hero {
   min-height: 100vh;
@@ -625,7 +640,7 @@ footer .credit a {
 /* Tablet */
 @media (max-width: 768px) {
   html {
-    font-size: 62.5%;
+    font-size: 85%;
   }
 
   #humberger-menu {
@@ -694,7 +709,7 @@ footer .credit a {
 /* Mobile */
 @media (max-width: 450px) {
   html {
-    font-size: 55%;
+    font-size: 70%;
   }
   .hero .content {
     top: 190px;

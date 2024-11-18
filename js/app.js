@@ -5,7 +5,6 @@ document.addEventListener("alpine:init", () => {
       { id: 2, name: "Gayo", img: "2.jpg", price: 30000 },
       { id: 3, name: "Arabica", img: "3.jpg", price: 35000 },
       { id: 4, name: "Sumatra", img: "4.jpg", price: 40000 },
-      { id: 5, name: "CoffeeNo", img: "5.jpg", price: 45000 },
     ],
   }));
 
