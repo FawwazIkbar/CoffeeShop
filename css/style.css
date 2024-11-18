@@ -766,7 +766,7 @@ footer .credit a {
   }
 }
 /* Mobile */
-@media (max-width: 450px) {
+@media (max-width: 832px) {
   html {
     font-size: 65%;
   }
@@ -774,28 +774,28 @@ footer .credit a {
     top: 190px;
   }
   .navbar .shopping-cart {
-    width: 35rem;
+    width: 40rem;
   }
   .form-konsumen form label {
     display: flex;
     flex-direction: column;
     align-items: start;
-    font-size: 1.6;
+    font-size: 1rem;
   }
   .form-konsumen form input {
     width: 100%;
     margin: 0.6rem 0;
-    font-size: 1.6;
+    font-size: 1rem;
   }
   .shopping-cart h3,
   .shopping-cart h5 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .shopping-cart .cart-item {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .shopping-cart h4 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
