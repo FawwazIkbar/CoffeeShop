@@ -721,7 +721,11 @@ footer .credit a {
     font-weight: bold;
     font-size: 1rem;
   }
-
+  .form-konsumen form label {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
   .form-konsumen h5 {
     font-size: 2rem;
     margin: 0.5rem;
@@ -733,6 +737,9 @@ footer .credit a {
   }
   .form-konsumen .checkout-button {
     font-size: 1.8rem;
+  }
+  .form-konsumen label input {
+    width: 100%;
   }
 
   .about .row {
