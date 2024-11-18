@@ -724,7 +724,7 @@ footer .credit a {
 
   .form-konsumen h5 {
     font-size: 2rem;
-    margin: 1rem;
+    margin: 0.5rem;
   }
   .form-konsumen label,
   .form-konsumen input {
@@ -792,11 +792,11 @@ footer .credit a {
     display: flex;
     flex-direction: column;
     align-items: start;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
   }
   .form-konsumen form input {
     width: 100%;
-    margin: 0.5rem 0;
-    font-size: 1.4rem;
+    margin: 0.3rem 0;
+    font-size: 1.7rem;
   }
 }
