@@ -788,11 +788,17 @@ footer .credit a {
   .shopping-cart h4 {
     font-size: 1.5rem;
   }
+  .form-konsumen form label {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
   .form-konsumen form label span {
     font-size: 1.7rem;
+    margin-bottom: 3px;
   }
   .form-konsumen form label input {
-    width: 80%;
+    width: 100%;
     margin: 0.3rem 0;
     font-size: 1.7rem;
   }
