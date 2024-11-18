@@ -69,7 +69,7 @@
           </div>
         </template>
         <!-- keterangan -->
-        <h4 x-show="!$store.cart.items.length" style="text-align: center; margin-top: 40vh">Cart is Empty</h4>
+        <h4 x-show="!$store.cart.items.length" style="margin-top: 40vh">Cart is Empty</h4>
         <h4 x-show="$store.cart.items.length">Total : <span x-text="rupiah($store.cart.totalHarga)"></span></h4>
 
         <!-- form konsumen -->
