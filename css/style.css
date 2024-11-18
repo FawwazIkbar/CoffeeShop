@@ -187,8 +187,8 @@ body {
 
 .hero .mask-container {
   position: absolute;
-
   inset: 0;
+
   mask-image: url(../img/maskkopi.svg);
   mask-repeat: no-repeat;
   mask-position: center;
@@ -210,7 +210,7 @@ body {
   /* max-width: 50rem; */
   position: fixed;
   text-align: center;
-  top: 100px;
+  top: 80px;
   width: 100%;
 }
 
@@ -568,6 +568,10 @@ footer .credit a {
   html {
     font-size: 75%;
   }
+  .hero .content {
+    top: 230px;
+    width: 100%;
+  }
 }
 /* Tablet */
 @media (max-width: 768px) {
@@ -642,5 +646,8 @@ footer .credit a {
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+  }
+  .hero .content {
+    top: 190px;
   }
 }
