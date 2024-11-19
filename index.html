@@ -16,7 +16,6 @@
     <script src="https://unpkg.com/feather-icons"></script>
     <!-- alpine js -->
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <script src="js/app.js"></script>
   </head>
   <body>
     <!-- navbar start -->
@@ -74,24 +73,28 @@
 
         <!-- form konsumen -->
         <div class="form-konsumen" x-show="$store.cart.items.length">
-          <h5>Customer Detail</h5>
           <form action="" id="checkoutForm">
+            <input type="hidden" name="items" x-model="JSON.stringify($store.cart.items)" />
+            <input type="hidden" name="totalHarga" x-model="$store.cart.totalHarga" />
+
+            <h5>Customer Detail</h5>
+
             <label for="name">
               <span>Name</span>
-              <input type="text" name="name" id="name" />
+              <input type="text" name="name" id="name" required />
             </label>
 
             <label for="email">
               <span>Email</span>
-              <input type="email" name="email" id="email" />
+              <input type="email" name="email" id="email" required />
             </label>
 
             <label for="phone">
               <span>No Hp</span>
-              <input type="number" name="phone" id="phone" autocomplete="off" />
+              <input type="number" name="phone" id="phone" autocomplete="off" required />
             </label>
 
-            <button class="checkout-button" type="submit" id="checkout-button" value="checkout">Checkout</button>
+            <button class="checkout-button disabled" type="submit" id="checkout-button" value="checkout">Checkout</button>
           </form>
         </div>
       </div>
@@ -312,5 +315,6 @@
     </script>
     <!-- Main.js -->
     <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>

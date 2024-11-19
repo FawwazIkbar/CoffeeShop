@@ -244,6 +244,11 @@ body {
   background-color: #7e5b38;
   transform: scaleX(0.9);
 }
+.form-konsumen .checkout-button.disabled {
+  background-color: #999;
+  cursor: not-allowed;
+  transform: none;
+}
 
 /* Hero Section */
 .hero {
