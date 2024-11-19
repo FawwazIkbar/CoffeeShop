@@ -91,7 +91,7 @@ checkoutButton.addEventListener("click", function (e) {
   const objData = Object.fromEntries(data); //ubah data ke objek
   const message = formatMessage(objData);
   // masukkan nomor hp owner
-  window.open(`http://wa.me/6282173398603?text=` + encodeURIComponent(message));
+  window.open(`http://wa.me/YOUR_WA_NUMBER?text=` + encodeURIComponent(message));
 });
 
 // format wa
